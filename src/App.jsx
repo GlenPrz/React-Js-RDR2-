@@ -6,7 +6,7 @@ function App() {
   const person = [
     {
       id:0,
-      name: "Marks",
+      name: "Mark",
       age: 24,
     },
     {
