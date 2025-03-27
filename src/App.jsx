@@ -6,7 +6,7 @@ function App() {
   const person = [
     {
       id:0,
-      name: "Mark",
+      name: "Marks",
       age: 24,
     },
     {
@@ -38,6 +38,7 @@ function App() {
             </li>
         ))}
       </ul>
+      
       <hr />
 
       <h1>Table</h1>
