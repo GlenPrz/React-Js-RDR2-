@@ -16,7 +16,7 @@ function App() {
     },
     {
       id:2,
-      name: "Glens",
+      name: "Glenski",
       age: 22,
     },
     {
