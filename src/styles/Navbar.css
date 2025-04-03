@@ -1,0 +1,10 @@
+.navigation {
+    background-color: #403939;
+    overflow: hidden;
+    color: white !important;
+    padding: 1em !important;
+}
+
+.navigation .nav-item a{
+    color: white;
+}

@@ -1,16 +1,14 @@
-import React from 'react';
-import MyButtonComponent from './components/MyButtonComponent';
 
+import React from 'react';
+import Rdr2_Banner from './components/banner.jsx';
+import NavBar from './components/NavBar.jsx';
 function App() {
 
   return (
-    <div>
-
-      <br />
-      <MyButtonComponent />
-      <br />
-      
-    </div>
+    <>
+      <NavBar />
+      <Rdr2_Banner />
+    </>
   )
 }
 export default App;
