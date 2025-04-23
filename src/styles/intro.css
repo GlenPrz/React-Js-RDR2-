@@ -1,0 +1,30 @@
+
+
+.intro-body {
+  background: #38420f;
+  background: linear-gradient(159deg, rgba(56, 66, 15, 1) 5%, rgba(146, 161, 79, 1) 27%, rgba(180, 188, 113, 1) 46%, rgba(227, 224, 159, 1) 66%, rgba(255, 241, 161, 1) 82%);
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  height: 45em;
+}
+
+.intro-body .intro-content {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10em 0 0 0;
+}
+
+.intro-body .btn-center {
+  background-color: rgba(255, 255, 255, 0.619);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+  padding: 1em 3em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.intro-body .btn-center:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  cursor: pointer;
+}

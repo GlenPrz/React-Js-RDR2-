@@ -1,13 +1,29 @@
 .banner{
-    background: rgb(255,197,0);
-    background: radial-gradient(circle, rgba(255,197,0,1) 21%, rgba(255,197,0,1) 27%, rgba(255,163,0,1) 34%, rgba(255,111,0,1) 41%, rgba(255,77,0,1) 50%, rgba(255,56,0,1) 57%, rgba(255,0,0,1) 66%, rgba(184,26,26,1) 82%, rgba(152,33,33,1) 92%, rgba(103,9,9,1) 97%, rgba(98,13,13,1) 100%);
+    background: rgb(255, 12, 12);
+    /* background: radial-gradient(circle, rgba(255,197,0,1) 21%, rgba(255,197,0,1) 27%, rgba(255,163,0,1) 34%, rgba(255,111,0,1) 41%, rgba(255,77,0,1) 50%, rgba(255,56,0,1) 57%, rgba(255,0,0,1) 66%, rgba(184,26,26,1) 82%, rgba(152,33,33,1) 92%, rgba(103,9,9,1) 97%, rgba(98,13,13,1) 100%); */
+    height: 41.7em;
+    display: flex;
 }
 
 .banner .left-banner{
     width: 50%;
     height: 100%;
-    background-color: rgba(0, 0, 255, 0.097);
+    /* background-color: rgba(0, 0, 255, 0.097); */
     float: left;
+    padding: 5em 0 0 0;
+}
+
+.short-intro{
+    width: 80%;
+    margin: 0 auto;
+}
+.left-banner .top-overlay{
+    width: 20em;
+    height: 3em;
+    background-color: black;
+    position: absolute;
+    top: 9.5%;
+    left: 0;
 }
 
 .left-banner .banner-content{
@@ -22,7 +38,9 @@
     width: 200px;
     height: 200px;
     margin: 4em auto;
-    background-color: rgb(83, 11, 11);
+    background-color: rgb(31, 2, 2);
+    border-radius: 50%;
+    padding: 1em;
 }
 
 .left-banner  {
@@ -32,6 +50,25 @@
 .banner .right-banner{
     width: 50%;
     height: 100%;
-    background-color: green;
     float: right;
+    background-color: rgba(77, 5, 5, 0.205);
+}
+
+.right-banner .top-overlay{
+    width: 20em;
+    height: 3em;
+    background-color: black;
+    position: absolute;
+    top: 9.5%;
+    right: 0;
+
+}
+
+.right-banner .bottom-overlay{
+    width: 20em;
+    height: 3em;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
